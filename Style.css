@@ -1,0 +1,418 @@
+@font-face {
+    font-family: "Antonio-Bold";
+    src: url(./Assets/fonts/Antonio/antonio-bold-webfont.woff) format("woff");
+    src: url(./Assets/fonts/Antonio/antonio-bold-webfont.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(./Assets/fonts/Inter/inter-bold-webfont.woff) format("woff");
+    src: url(./Assets/fonts/Inter/inter-bold-webfont.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Inter-Medium";
+    src: url(./Assets/fonts/Inter/inter-medium-webfont.woff) format("woff");
+    src: url(./Assets/fonts/Inter/inter-medium-webfont.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(./Assets/fonts/Inter/inter-regular-webfont.woff) format("woff");
+    src: url(./Assets/fonts/Inter/inter-regular-webfont.woff2) format("woff2");
+}
+@font-face {
+    font-family: "Inter-Semibold";
+    src: url(./Assets/fonts/Inter/inter-semibold-webfont.woff) format("woff");
+    src: url(./Assets/fonts/Inter/inter-semibold-webfont.woff2) format("woff2");
+}
+ul{
+    padding: 0;
+    margin: auto;
+}
+ul li{ 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* //////////////////////////////////////////////////////Header */
+
+#Header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Header-left{
+    width:20%;
+}
+.header-logo{
+    width: 50%;
+    display: block;
+    margin: auto 0;
+}
+.Header-right{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.Header-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+.Header-right ul li{
+    width: auto;
+}
+.Header-right ul li a{
+    color: #868686;
+    font-size: 16px;
+    margin: auto 25px;
+}
+.login-button{
+    width: 20%;
+    padding: 12px 25px;
+    background: #fff;
+    border: 2px solid #7C8EE9;
+    color: #7C8EE9;
+    margin: auto;
+}
+.sidebar-button-div{
+    display: none;
+}
+/* ------------------------------------------------------------------980px responsive-----Header-----*/
+@media all and (max-width: 980px){
+ 
+    .Header-left{
+        width:20%;
+    }
+    .header-logo{
+        width: 50%;
+        display: block;
+        margin: auto 0;
+    }
+    .Header-right{
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .Header-right ul li{
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 16px;
+        margin: auto 25px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 12px 25px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
+@media all and (max-width: 768px){
+ 
+    .Header-left{
+        width:20%;
+    }
+    .header-logo{
+        width: 50%;
+        display: block;
+        margin: auto 0;
+    }
+    .Header-right{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+    .Header-right ul li{
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 14px;
+        margin: auto 25px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 12px 25px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+        font-size: 10px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
+@media all and (max-width: 640px){
+    .Header-left{
+        width:17%;
+    }
+    .header-logo{
+        width: 80%;
+        display: block;
+        margin: auto ;
+    }
+    .Header-right{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .Header-right ul li{
+        margin: auto 2px;
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 12px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 7px 22px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+        font-size: 10px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+@media all and (max-width: 480px){
+    #Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-left{
+        width:30%;
+    }
+    .header-logo{
+        width: 80%;
+        display: block;
+        margin: auto ;
+    }
+    .Header-right{
+        width: 80%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .Header-right ul li{
+        margin: auto 2px;
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 12px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 7px 22px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+        font-size: 10px;
+    }
+    .sidebar-button-div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    #sidebar-button{
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Header-----*/
+@media all and (max-width: 360px){
+    #Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-left{
+        width:35%;
+    }
+    .header-logo{
+        width: 90%;
+        display: block;
+        margin: auto  30px;
+    }
+    .Header-right{
+        width: 80%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .Header-right ul li{
+        margin: auto 2px;
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 12px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 7px 22px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+        font-size: 10px;
+    }
+    .sidebar-button-div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    #sidebar-button{
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Header-----*/
+@media all and (max-width: 320px){
+    #Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-left{
+        width:35%;
+    }
+    .header-logo{
+        width: 90%;
+        display: block;
+        margin: auto  30px;
+    }
+    .Header-right{
+        width: 80%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Header-right ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        margin: auto;
+    }
+    .Header-right ul li{
+        margin: auto 2px;
+    }
+    .Header-right ul li a{
+        color: #868686;
+        font-size: 12px;
+    }
+    .login-button{
+        width: 20%;
+        padding: 7px 22px;
+        background: #fff;
+        border: 2px solid #7C8EE9;
+        color: #7C8EE9;
+        margin: auto;
+        font-size: 10px;
+    }
+    .sidebar-button-div{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    #sidebar-button{
+        margin: 10px;
+    }
+}
+
+/* //////////////////////////////////////////////////////Sidebar */
+
+#Sidebar{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -200;
+    z-index: 2;
+}
+.Sidebar-logo{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+#Sidebar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px auto; 
+    width: 100%;
+}
+#Sidebar ul li {
+    margin: 25px;
+}
+#Sidebar ul li a{
+    color: #868686;
+}
+.login-button.sidebar{
+    width: 50%;
+    padding: 12px 30px;
+    font-size: 13px;
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+@media all and (max-width: 480px){
+    #Sidebar{
+        display: flex;
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -200px;
+        z-index: 2;
+    }
+    #Sidebar.active{
+        left: 0px;
+    }
+}
