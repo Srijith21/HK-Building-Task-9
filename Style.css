@@ -33,6 +33,14 @@ ul li{
 a{
     text-decoration: none;
 }
+p{
+    color: #7b7b7b; 
+    font-family: Inter-Regular;  
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+}
 /* //////////////////////////////////////////////////////Header */
 
 #Header{
@@ -44,6 +52,8 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: #fff;
+    z-index: 1;
 }
 .Header-left{
     width:20%;
@@ -414,5 +424,441 @@ a{
     }
     #Sidebar.active{
         left: 0px;
+    }
+}
+
+/* //////////////////////////////////////////////////////Spotlight */
+#Spotlight{
+    margin-top: 100px;
+}
+.wrapper.Spotlight{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Spotlight-left{
+    width: 31%;
+}
+.Spotlight-left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    width: 80%;
+}
+.Spotlight-left ul li{
+    width: 30%;
+    margin: 0 auto;
+    text-align: start;
+}
+.Spotlight-left ul li h3{
+    font-size: 40px;
+    color: #B87C78;
+    margin: 10px 0;
+    font-family: Antonio-Bold;
+}
+.Spotlight-left ul li h6{
+    font-size: 13px;
+    line-height: 1.5rem;
+    color: #868686;
+    font-family: Inter-Semibold;
+    width: 60%;
+    margin: 15px 0;
+}
+.Spotlight-right{
+    width: 65%;
+}
+.Spotlight-right img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.Spotlight-box{
+    background: #eff1f1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    padding: 30px 40px;
+}
+.Spotlight-box h5{
+    font-size: 35px;
+    color: #333459;
+    margin: 5px 0;
+    font-family: Inter-Semibold;
+    width: 90%;
+    line-height: 3rem;
+}
+.Spotlight-box p{
+    font-size: 12px;
+    margin: 12px 0;
+    font-family: Inter-Medium;
+    line-height: 1.5rem;
+}
+.start-now{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #7C8EE9;
+    border: none;
+    font-size: 10px;
+    font-family: Inter-Semibold;
+}
+/* ------------------------------------------------------------------1440px responsive-----Spotlight-----*/
+@media all and (max-width: 1440px){
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 35%;
+        padding: 30px 40px;
+    }
+    .Spotlight-box h5{
+        font-size: 36px;
+        color: #333459;
+        margin: 5px 0;
+        font-family: Inter-Semibold;
+        width: 90%;
+        line-height: 3rem;
+    }
+    .Spotlight-box p{
+        font-size: 12px;
+        margin: 14px 0;
+        font-family: Inter-Medium;
+        line-height: 1.5rem;
+    }
+    .start-now{
+        padding: 15px 25px;
+        color: #fff;
+        background-color: #7C8EE9;
+        border: none;
+        font-size: 10px;
+        font-family: Inter-Semibold;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Spotlight-----*/
+@media all and (max-width: 980px){
+    .Spotlight-left ul{
+        margin: 15px auto;
+        width: 80%;
+    }
+    .Spotlight-left ul li h3{
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 40%;
+        padding: 30px 30px;
+    }
+    .Spotlight-box h5{
+        font-size: 25px;
+        color: #333459;
+        margin: 5px 0;
+        font-family: Inter-Semibold;
+        width: 100%;
+        line-height: 2.5rem;
+    }
+    .Spotlight-box p{
+        font-size: 8px;
+        margin: 12px 0;
+        font-family: Inter-Medium;
+        line-height: 1.5rem;
+    }
+    .start-now{
+        padding: 15px 25px;
+        color: #fff;
+        background-color: #7C8EE9;
+        border: none;
+        font-size: 8px;
+        font-family: Inter-Semibold;
+        margin: 8px 0;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Spotlight-----*/
+@media all and (max-width: 768px){
+    #Spotlight{
+        margin-top: 100px;
+    }
+    .wrapper.Spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .Spotlight-left{
+        width: 60%;
+        margin: auto;
+    }
+    .Spotlight-left ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+        width: 80%;
+    }
+    .Spotlight-left ul li{
+        width: 30%;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .Spotlight-left ul li h3{
+        font-size: 40px;
+        color: #B87C78;
+        margin: 10px 0;
+        font-family: Antonio-Bold;
+    }
+    .Spotlight-left ul li h6{
+        font-size: 13px;
+        line-height: 1.5rem;
+        color: #868686;
+        font-family: Inter-Semibold;
+        width: 60%;
+        margin: 15px 0;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 35%;
+        padding: 30px 20px;
+    }
+    .Spotlight-box h5{
+        font-size: 18px;
+        color: #333459;
+        font-family: Inter-Semibold;
+        width: 100%;
+        margin: 5px 0;
+        line-height: 2rem;
+    }
+    .Spotlight-box p{
+        font-size: 8px;
+        margin: 5px 0;
+        font-family: Inter-Medium;
+        line-height: 1rem;
+    }
+    .start-now{
+        padding: 15px 25px;
+        color: #fff;
+        background-color: #7C8EE9;
+        border: none;
+        font-size: 8px;
+        font-family: Inter-Semibold;
+        margin: 10px 0;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Spotlight-----*/
+@media all and (max-width: 640px){
+
+    .Spotlight-left{
+        width: 60%;
+        margin: auto;
+    }
+    .Spotlight-left ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+        width: 80%;
+    }
+    .Spotlight-left ul li{
+        width: 30%;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .Spotlight-left ul li h3{
+        font-size: 40px;
+        color: #B87C78;
+        margin: 10px 0;
+        font-family: Antonio-Bold;
+    }
+    .Spotlight-left ul li h6{
+        font-size: 13px;
+        line-height: 1.5rem;
+        width: 60%;
+        margin: 15px 0;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 90%;
+        padding: 20px;
+    }
+    .Spotlight-box h5{
+        font-size: 23px;
+        width: 100%;
+        margin: 10px 0;
+        line-height: 2rem;
+    }
+    .Spotlight-box p{
+        font-size: 12px;
+        margin: 5px 0;
+        font-family: Inter-Medium;
+        line-height: 1rem;
+    }
+    .start-now{
+        padding: 10px 20px;
+        font-size: 6px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Spotlight-----*/
+@media all and (max-width: 480px){
+
+    .Spotlight-left{
+        width: 60%;
+        margin: auto;
+    }
+    .Spotlight-left ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+        width: 80%;
+    }
+    .Spotlight-left ul li{
+        width: 30%;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .Spotlight-left ul li h3{
+        font-size: 40px;
+        color: #B87C78;
+        margin: 10px 0;
+        font-family: Antonio-Bold;
+    }
+    .Spotlight-left ul li h6{
+        font-size: 13px;
+        line-height: 1.5rem;
+        width: 60%;
+        margin: 15px 0;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 85%;
+        padding: 10px;
+        text-align: center;
+    }
+    .Spotlight-box h5{
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0;
+        line-height: 2rem;
+    }
+    .Spotlight-box p{
+        font-size: 8px;
+        margin: 5px 0;
+        font-family: Inter-Medium;
+        line-height: 1rem;
+        width: 100%;
+    }
+    .start-now{
+        padding: 10px 20px;
+        font-size: 6px;
+        margin: 0;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Spotlight-----*/
+@media all and (max-width: 360px){
+
+    .Spotlight-left{
+        width: 80%;
+        margin: auto;
+    }
+    .Spotlight-left ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+        width: 80%;
+    }
+    .Spotlight-left ul li{
+        width: 30%;
+        margin: 0 auto;
+        text-align: start;
+    }
+    .Spotlight-left ul li h3{
+        font-size: 30px;
+        color: #B87C78;
+        margin: 10px 0;
+        font-family: Antonio-Bold;
+    }
+    .Spotlight-left ul li h6{
+        font-size: 10px;
+        line-height: 1.5rem;
+        width: 60%;
+        margin: 15px 0;
+    }
+    .Spotlight-right{
+        width: 90%;
+        margin: auto;
+    }
+    .Spotlight-right img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Spotlight-box{
+        background: #eff1f1;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 85%;
+        padding: 10px;
+        text-align: center;
+    }
+    .Spotlight-box h5{
+        font-size: 10px;
+        width: 100%;
+        margin: 6px 0;
+        line-height: 1rem;
+    }
+    .Spotlight-box p{
+        font-size: 5px;
+        margin: 2px 0;
+        font-family: Inter-Medium;
+        line-height: .5rem;
+        width: 100%;
+    }
+    .start-now{
+        padding: 8px 18px;
+        font-size: 4px;
+        margin: 0;
     }
 }
