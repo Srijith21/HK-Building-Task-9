@@ -1372,19 +1372,464 @@ p{
     }
 }
 
+/* //////////////////////////////////////////////////////Recent-Work */
+#Recent-Work{}
+.wrapper.Recent-Work{
+    width: 100%;
+}
+.Recent-Work-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px ;
+}
+.headings.Recent-Work{
+    margin: auto 0;
+}
+.arrow-box{
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    align-items: center;
+}
+.Recent-Work-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px -30px 30px 50px;
+}
+.Recent-Work-bottom ul li{
+    width: 23%;
+    position: relative;
+}
+.recent-work-img{
+    display: block;
+    width: 100%;
+}
+.work-details{
+    opacity: 0.9;
+    background: #eff1f1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    padding: 10px 20px;
+}
+.work-details h5{
+    margin: 20px 0;
+    font-size: 15px;
+    font-family: Inter-Regular;
+}
+.location-img{
+    width: 15px;
+    height: 15px;
+}
+.work-details span{
+    font-size: 15px;
+    color: #7C8EE9;
+    margin: 10px 0;
+}
+.search-grey-box{
+    background: #eff1f1;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-grey-box img{
+    width: 10%;
+    margin: auto auto;   
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------980px responsive-----Recent-Work-----*/
+@media all and (max-width: 980px){
+    .wrapper.Recent-Work{
+        width: 100%;
+    }
+    .Recent-Work-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px ;
+    }
+    .headings.Recent-Work{
+        margin: auto 0;
+    }
+    .arrow-box{
+        display: flex;
+        justify-content: space-between;
+        width: 9%;
+        align-items: center;
+    }
+    .Recent-Work-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px -30px 30px 50px;
+    }
+    .Recent-Work-bottom ul li{
+        width: 23%;
+        position: relative;
+    }
+    .recent-work-img{
+        display: block;
+        width: 100%;
+    }
+    .work-details{
+        opacity: 0.9;
+        background: #eff1f1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        padding: 10px 15px;
+    }
+    .work-details h5{
+        margin: 15px 0;
+        font-size: 10px;
+        font-family: Inter-Regular;
+    }
+    .location-img{
+        width: 10px;
+        height: 10px;
+    }
+    .work-details span{
+        font-size: 9px;
+        color: #7C8EE9;
+        margin: 7px 0;
+    }
+    .search-grey-box{
+        background: #eff1f1;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-grey-box img{
+        width: 10%;
+        margin: auto auto;   
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Recent-Work-----*/
+@media all and (max-width: 768px){
+    .wrapper.Recent-Work{
+        width: 100%;
+    }
+    .Recent-Work-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px ;
+    }
+    .headings.Recent-Work{
+        margin: auto 0;
+    }
+    .arrow-box{
+        display: flex;
+        justify-content: space-between;
+        width: 9%;
+        align-items: center;
+    }
+    .Recent-Work-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px -30px 30px 20px;
+    }
+    .Recent-Work-bottom ul li{
+        width: 22%;
+        position: relative;
+    }
+    .recent-work-img{
+        display: block;
+        width: 100%;
+    }
+    .work-details{
+        opacity: 0.9;
+        background: #eff1f1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        padding: 10px 15px;
+    }
+    .work-details h5{
+        margin: 15px 0;
+        font-size: 8px;
+        font-family: Inter-Regular;
+    }
+    .location-img{
+        width: 10px;
+        height: 10px;
+    }
+    .work-details span{
+        font-size: 8px;
+        color: #7C8EE9;
+        margin: 7px 0;
+    }
+    .search-grey-box{
+        background: #eff1f1;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-grey-box img{
+        width: 10%;
+        margin: auto auto;   
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Recent-Work-----*/
+@media all and (max-width: 640px){
+    .wrapper.Recent-Work{
+        width: 100%;
+    }
+    .Recent-Work-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px ;
+    }
+    .headings.Recent-Work{
+        margin: auto 0;
+    }
+    .arrow-box{
+        display: flex;
+        justify-content: space-between;
+        width: 22%;
+        align-items: center;
+    }
+    .Recent-Work-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 30px -30px 30px 20px;
+    }
+    .Recent-Work-bottom ul li{
+        width: 40%;
+        margin: 20px;
+        position: relative;
+    }
+    .recent-work-img{
+        display: block;
+        width: 100%;
+    }
+    .work-details{
+        opacity: 0.9;
+        background: #eff1f1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        padding: 10px 15px;
+    }
+    .work-details h5{
+        margin: 15px 0;
+        font-size: 13px;
+        font-family: Inter-Regular;
+    }
+    .location-img{
+        width: 10px;
+        height: 10px;
+    }
+    .work-details span{
+        font-size: 11px;
+        color: #7C8EE9;
+        margin: 7px 0;
+    }
+    .search-grey-box{
+        background: #eff1f1;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-grey-box img{
+        width: 10%;
+        margin: auto auto;   
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Recent-Work-----*/
+@media all and (max-width: 480px){
+    .wrapper.Recent-Work{
+        width: 100%;
+    }
+    .Recent-Work-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px ;
+    }
+    .headings.Recent-Work{
+        margin: auto 0;
+    }
+    .arrow-box{
+        display: flex;
+        justify-content: space-between;
+        width: 17%;
+        align-items: center;
+    }
+    .arrow-box img{
+        width: 25px;
+        height: 25px;
+    }
+    .Recent-Work-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:20px;
+    }
+    .Recent-Work-bottom ul li{
+        width: 45%;
+        margin: 10px;
+        position: relative;
+    }
+    .recent-work-img{
+        display: block;
+        width: 100%;
+    }
+    .work-details{
+        opacity: 0.9;
+        background: #eff1f1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        padding: 10px 15px;
+    }
+    .work-details h5{
+        margin: 15px 0;
+        font-size: 10px;
+        font-family: Inter-Regular;
+    }
+    .location-img{
+        width: 10px;
+        height: 10px;
+    }
+    .work-details span{
+        font-size: 9px;
+        color: #7C8EE9;
+        margin: 7px 0;
+    }
+    .search-grey-box{
+        background: #eff1f1;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-grey-box img{
+        width: 10%;
+        margin: auto auto;   
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Recent-Work-----*/
+@media all and (max-width: 360px){
+    .wrapper.Recent-Work{
+        width: 100%;
+    }
+    .Recent-Work-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px ;
+    }
+    .headings.Recent-Work{
+        margin: auto 0;
+    }
+    .arrow-box{
+        display: flex;
+        justify-content: space-between;
+        width: 17%;
+        align-items: center;
+    }
+    .arrow-box img{
+        width: 25px;
+        height: 25px;
+    }
+    .Recent-Work-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin:10px;
+    }
+    .Recent-Work-bottom ul li{
+        width: 40%;
+        margin: 10px;
+        position: relative;
+    }
+    .recent-work-img{
+        display: block;
+        width: 100%;
+    }
+    .work-details{
+        opacity: 0.9;
+        background: #eff1f1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60%;
+        padding: 10px 15px;
+    }
+    .work-details h5{
+        margin: 15px 0;
+        font-size: 6px;
+        font-family: Inter-Regular;
+    }
+    .location-img{
+        width: 10px;
+        height: 10px;
+    }
+    .work-details span{
+        font-size: 6px;
+        color: #7C8EE9;
+        margin: 7px 0;
+    }
+    .search-grey-box{
+        background: #eff1f1;
+        opacity: 0.9;
+        position: absolute;
+        bottom: 1px;
+        left: 6px;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-grey-box img{
+        width: 10%;
+        margin: auto auto;   
+    }
+}
 
 
 
